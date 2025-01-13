@@ -1,0 +1,313 @@
+@media (min-width: 300px) and (max-width: 575px) {
+
+    /* Header Media Query */
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .top-head-carousel h4 {
+        font-size: 9px !important;
+    }
+
+    .top-head-carousel img {
+        height: 15px !important;
+    }
+
+    .head-icons  img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .main-logo img {
+        width: 70px !important;
+        height: 40px !important;
+    }
+
+
+    /* Carousel Media Query */
+    .carousel-height {
+        max-height: 60vh !important;
+        overflow: hidden;
+    }
+
+    /* Card Media Query */
+    .card {
+        max-width: 20vw !important;
+        max-height: 25vh !important;
+    }
+
+    .card > img {
+        padding: 5px;
+    }
+
+    .card-body > h5 {
+        margin-top: -16px;
+        font-size: 7px;
+        font-weight:bolder;
+    } 
+
+    .card-body > p {
+        display: none;
+    }
+
+    .card-body > a {
+        width: 50px;
+        font-size: 7px;
+        padding: 2px;
+        margin: 0px 0px 6px -7px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 27vh !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .card-group>.card:not(:last-child) .card-header, .card-group>.card:not(:last-child) .card-img-top {
+        border-top-right-radius: 0;
+        width: 320px;
+        border-radius: 100px;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+
+    /* Header Media Query */
+
+    .top-head-carousel h4 {
+        font-size: 12px !important;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+
+    .ham-drop {
+        display: none;
+    }
+    
+    .navbar-nav > a {
+        font-size: 8px;
+    }
+
+    .top-head-carousel img {
+        height: 20px !important;
+    }
+
+    .head-icons  img {
+        width: 17px !important;
+        height: 17px !important;
+    }
+
+    .main-logo img {
+        width: 90px !important;
+        height: 60px !important;
+    }
+
+
+    /* Carousel Media Query */
+    .carousel-height {
+        max-height: 70vh;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Header Media Query */
+    .navbar-nav > a {
+        font-size: 12px;
+    }
+
+    .head-icons  img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .main-logo img {
+        width: 110px !important;
+        height: 80px !important;
+    }
+
+
+    /* Carousel Media Query */
+    .carousel-height {
+        max-height: 50vh;
+        overflow: hidden;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 40vh !important;
+    }
+
+
+    /* Rounded Card Media Query */
+    .card-size {
+        max-height: 27vh;
+    }
+
+    .card-body > p {
+        margin: 0px 0px 0px 0px;
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .card-text:last-child {
+        margin-bottom: 0;
+        margin-left: 20px !important;
+        margin-right: 60px;
+    }
+
+
+    /* AD-Photo Media Query */
+    #Ad-Photo-4691 img {
+        margin: 0px 0px 0px -80px;
+    }
+
+
+    /* Card-Carousel Media Query */
+    .card-carou-742 {
+        max-height: 30vh;
+    }
+
+    .card-carou-742 img {
+        width: 100% !important;
+        height: 8vh !important;
+    }
+
+    .card-carou-742 h5 {
+        font-size: 15px;
+    }
+
+    .card-carou-742 p {
+        font-size: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .card-carou-742 a {
+        padding: 7px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+    /* Header Media Query */ 
+    .navbar-nav > a {
+        font-size: 15px;
+    }
+
+    .head-icons  img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    /* Carousel Media Query */
+    .carousel-height {
+        max-height: 105vh;
+        overflow: hidden;
+    }
+
+     /* Rounded Card Media Query */
+     .card-size {
+        max-height: 70vh;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    /* Header Media Query */
+    .navbar-nav > a {
+        font-size: 25px;
+    }
+
+
+    /* Carousel Media Query */
+    .carousel-height {
+        max-height: 105vh;
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+
+}
+
+
+
+
+
+
+
+.card-text:last-child {
+    margin-bottom: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 105vh;
+}
+
+.card-title {
+    overflow: hidden;
+}
